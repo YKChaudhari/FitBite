@@ -1,0 +1,63 @@
+body {
+    font-family: "Times New Roman", sans-serif;
+    height: 100vh;
+    background-color: rgb(214, 205, 205);
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;    
+    margin: 40px 8px 10px 8px;
+}
+
+.wrapper {
+    background-color: rgb(214, 205, 205);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    padding: 20px;
+}
+
+#formContent {
+    border-radius: 10px 10px 10px 10px;
+    background: -webkit-linear-gradient(left, #395886, #638ECB, #8AAEE0, #B1C9EF, #D5DEEF, #F0F3FA);
+    max-width: 450px;
+    position: relative;
+    padding: 50px;
+    -webkit-box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+#btn{
+	border-radius: 20px;
+	border: 1px solid white;
+	background-color: #B1C9EF;
+	color: black;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+
+input {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+}
+
+select{
+    background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+}
